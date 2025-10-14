@@ -1,0 +1,83 @@
+Checklist & Planning pour ton projet Kaggle House Prices
+Phase 1 : Préparation (1 à 2 jours)
+ Télécharger et extraire les données (fait)
+
+ Explorer les fichiers (train.csv, test.csv, data description)
+
+ Analyser la structure des données : types, valeurs manquantes, distributions
+
+ Se familiariser avec les objectifs de la compétition (métriques, contraintes)
+
+ Mettre en place l’environnement Python (conda + uv/pip) avec toutes les bibliothèques nécessaires
+
+Phase 2 : Analyse exploratoire des données (EDA) (2 à 4 jours)
+ Visualiser la distribution de la variable cible (prix)
+
+ Identifier les variables numériques et catégoriques
+
+ Analyser les corrélations entre variables et avec la cible
+
+ Étudier les valeurs manquantes et décider des stratégies de traitement
+
+ Visualiser les relations clés (scatter plots, boxplots, heatmaps)
+
+ Documenter toutes les observations et hypothèses
+
+Phase 3 : Préparation des données (3 à 5 jours)
+ Traiter les valeurs manquantes (imputation, suppression)
+
+ Encoder les variables catégoriques (one-hot, label encoding, target encoding)
+
+ Normaliser ou standardiser les variables numériques si nécessaire
+
+ Créer de nouvelles features potentielles (feature engineering)
+
+ Séparer clairement train/test sets, validation croisée
+
+Phase 4 : Modélisation de base (4 à 7 jours)
+ Implémenter des modèles de régression classiques :
+
+Régression linéaire
+
+Régression Ridge/Lasso
+
+Decision Trees / Random Forest
+
+ Évaluer les modèles avec des métriques adaptées (RMSE, MAE)
+
+ Faire une validation croisée rigoureuse
+
+ Identifier les points faibles des premiers modèles
+
+Phase 5 : Modélisation avancée (5 à 10 jours)
+ Tester des modèles plus complexes :
+
+Gradient Boosting (XGBoost, LightGBM, CatBoost)
+
+Réseaux de neurones simples
+
+ Effectuer une optimisation des hyperparamètres (GridSearch, RandomSearch)
+
+ Analyser l’importance des features
+
+ Expérimenter avec l’assemblage (stacking, blending)
+
+Phase 6 : Soumission et itérations (en continu)
+ Générer la prédiction sur le set de test
+
+ Soumettre les résultats sur Kaggle
+
+ Analyser le score et feedback
+
+ Améliorer le pipeline en fonction des résultats
+
+ Documenter les changements et apprentissages
+
+Phase 7 : Rapport final et révision (2 à 3 jours)
+ Rédiger un rapport clair sur le projet, la démarche et les résultats
+
+ Préparer une présentation ou notebook bien commenté
+
+ Préparer un code propre, reproductible et versionné (git)
+
+ Réfléchir aux améliorations possibles pour un projet futur

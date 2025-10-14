@@ -1,0 +1,11 @@
+/data
+*.csv
+*txt
+/catboost_info
+/.venv
+/artifacts
+/.kaggle
+/mlruns
+*.zip
+*.pkl
+*/db
