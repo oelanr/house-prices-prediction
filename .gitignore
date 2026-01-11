@@ -10,4 +10,4 @@
 *.pkl
 */db
 .db
-
+/mlartifacts
